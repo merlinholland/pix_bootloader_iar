@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1316</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>987</ColumnWidth1>
+        <ColumnWidth2>263</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>124</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory><item>sys_tick</item></DisasmHistory>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <Register><RegFindHistory/></Register></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31930-18856</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-31407-18866</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9910-18859</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>opencm3</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3><Tabs><Tab><Identity>TabID-18220-3930</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab><Tab><Identity>TabID-26292-3574</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>16</Group><States>6</States><State0>GPIOA_CRL</State0><State1>GPIOA_ODR</State1><State2>SYST_CALIB</State2><State3>SYST_CSR</State3><State4>SYST_CVR</State4><State5>SYST_RVR</State5></Session></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Program Files\IAR Systems\Embedded Workbench 7.4\arm\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\memorymap.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>8</YPos2><SelStart2>944</SelStart2><SelEnd2>951</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\cm3\scb.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>413</YPos2><SelStart2>15917</SelStart2><SelEnd2>15917</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\cm3\systick.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>101</YPos2><SelStart2>3880</SelStart2><SelEnd2>3903</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\rcc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>7</YPos2><SelStart2>955</SelStart2><SelEnd2>998</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\cm3\assert.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>86</YPos2><SelStart2>3395</SelStart2><SelEnd2>3395</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\common\flash_common_f01.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>88</YPos2><SelStart2>3660</SelStart2><SelEnd2>3660</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\common\usart_common_all.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>99</YPos2><SelStart2>4260</SelStart2><SelEnd2>4260</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\cm3\systick.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>54</YPos2><SelStart2>3572</SelStart2><SelEnd2>3572</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\cm3\assert.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>699</SelStart2><SelEnd2>699</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\cm3\sync.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>46</YPos2><SelStart2>1450</SelStart2><SelEnd2>1450</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\f1\vector_nvic.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>126</YPos2><SelStart2>567</SelStart2><SelEnd2>567</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\dispatch\vector_nvic.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\dispatch\vector_chipset.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>260</SelStart2><SelEnd2>260</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\cm3\nvic.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>2721</SelStart2><SelEnd2>2721</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\cm3\vector.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>26</YPos2><SelStart2>1452</SelStart2><SelEnd2>1452</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencmsis\core_cm3.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>150</YPos2><SelStart2>4720</SelStart2><SelEnd2>4720</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\cm3\nvic.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>118</YPos2><SelStart2>4225</SelStart2><SelEnd2>4225</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\cm3\dwt.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>45</YPos2><SelStart2>2503</SelStart2><SelEnd2>2503</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\f1\rcc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>170</YPos2><SelStart2>5009</SelStart2><SelEnd2>5009</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\f1\bkp.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>7</YPos2><SelStart2>864</SelStart2><SelEnd2>864</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\cm3\common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>1611</SelStart2><SelEnd2>1611</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\common\gpio_common_all.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>60</YPos2><SelStart2>2509</SelStart2><SelEnd2>2509</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\f1\gpio.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>599</YPos2><SelStart2>21741</SelStart2><SelEnd2>21765</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\f1\gpio.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>98</YPos2><SelStart2>4102</SelStart2><SelEnd2>4102</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\cm3\vector.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>98</YPos2><SelStart2>3302</SelStart2><SelEnd2>3302</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\common\usart_common_f124.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>48</YPos2><SelStart2>1840</SelStart2><SelEnd2>1840</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Program Files\IAR Systems\Embedded Workbench 7.4\arm\inc\c\stdint.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>6</YPos2><SelStart2>499</SelStart2><SelEnd2>499</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\f1\nvic.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>121</YPos2><SelStart2>3392</SelStart2><SelEnd2>3392</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\common\usart_common_all.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>202</YPos2><SelStart2>6491</SelStart2><SelEnd2>6491</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\opencm3.map</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>113</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\inc\bl.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>83</YPos2><SelStart2>3042</SelStart2><SelEnd2>3042</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>272</YPos2><SelStart2>6622</SelStart2><SelEnd2>6622</SelEnd2></Tab><ActiveTab>32</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\bl.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>260</YPos2><SelStart2>7363</SelStart2><SelEnd2>7375</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\inc\hw_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>22</YPos2><SelStart2>1777</SelStart2><SelEnd2>1777</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\usr_usart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>70</YPos2><SelStart2>2325</SelStart2><SelEnd2>2325</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\lib\stm32\common\rcc_common_all.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>1711</SelStart2><SelEnd2>1711</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\libopencm3\include\libopencm3\stm32\f1\rcc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>360</YPos2><SelStart2>12988</SelStart2><SelEnd2>13006</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0139A230><key>iaridepm.enu1</key></Toolbar-0139A230></Sizes></Row0><Row1><Sizes><Toolbar-05E37888><key>debuggergui.enu1</key></Toolbar-05E37888></Sizes></Row1><Row2><Sizes><Toolbar-0606E128><key>armjlink2.enu1</key></Toolbar-0606E128></Sizes></Row2></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>487</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>145455</sizeHorzCX><sizeHorzCY>257069</sizeHorzCY><sizeVertCX>145455</sizeVertCX><sizeVertCY>628535</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>487</Bottom><Right>486</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>145455</sizeHorzCX><sizeHorzCY>257069</sizeHorzCY><sizeVertCX>354909</sizeVertCX><sizeVertCY>628535</sizeVertCY></Rect></Wnd3></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1377</Right><x>-2</x><y>-2</y><xscreen>1379</xscreen><yscreen>200</yscreen><sizeHorzCX>1002909</sizeHorzCX><sizeHorzCY>257069</sizeHorzCY><sizeVertCX>145455</sizeVertCX><sizeVertCY>257069</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

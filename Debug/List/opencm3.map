@@ -1,0 +1,391 @@
+###############################################################################
+#
+# IAR ELF Linker V7.60.2.11341/W32 for ARM                20/Jul/2016  11:17:29
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  C:\IAR_opencm3\Debug\Exe\opencm3.out
+#    Map file     =  C:\IAR_opencm3\Debug\List\opencm3.map
+#    Command line =  
+#        C:\IAR_opencm3\Debug\Obj\assert.o C:\IAR_opencm3\Debug\Obj\bl.o
+#        C:\IAR_opencm3\Debug\Obj\dwt.o C:\IAR_opencm3\Debug\Obj\flash.o
+#        C:\IAR_opencm3\Debug\Obj\flash_common_f01.o
+#        C:\IAR_opencm3\Debug\Obj\gpio.o
+#        C:\IAR_opencm3\Debug\Obj\gpio_common_all.o
+#        C:\IAR_opencm3\Debug\Obj\main.o C:\IAR_opencm3\Debug\Obj\nvic.o
+#        C:\IAR_opencm3\Debug\Obj\rcc.o
+#        C:\IAR_opencm3\Debug\Obj\rcc_common_all.o
+#        C:\IAR_opencm3\Debug\Obj\scb.o C:\IAR_opencm3\Debug\Obj\systick.o
+#        C:\IAR_opencm3\Debug\Obj\usart.o
+#        C:\IAR_opencm3\Debug\Obj\usart_common_all.o
+#        C:\IAR_opencm3\Debug\Obj\usart_common_f124.o
+#        C:\IAR_opencm3\Debug\Obj\usr_usart.o C:\IAR_opencm3\Debug\Obj\vector.o
+#        C:\IAR_opencm3\Debug\Obj\vector_nvic.o -o
+#        C:\IAR_opencm3\Debug\Exe\opencm3.out --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull --map
+#        C:\IAR_opencm3\Debug\List\opencm3.map --log
+#        libraries,initialization,modules,redirects,sections,veneers,unused_fragments,call_graph
+#        --log_file C:\IAR_opencm3\Debug\List\opencm3.log --config
+#        C:\IAR_opencm3\opencm3.icf --semihosting --entry __iar_program_start
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x08000fff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                     0x190
+  .intvec            const    0x08000000  0x150  vector.o [1]
+  .intvec            ro code  0x08000150   0x40  vector_table_M.o [4]
+                            - 0x08000190  0x190
+
+"P1":                                     0xd90
+  .text              ro code  0x08000190  0x4b4  bl.o [1]
+  .text              ro code  0x08000644   0x80  usr_usart.o [1]
+  .text              ro code  0x080006c4   0x68  flash_common_f01.o [1]
+  .text              ro code  0x0800072c   0x58  systick.o [1]
+  .text              ro code  0x08000784  0x1f0  main.o [1]
+  .text              ro code  0x08000974   0x9c  usart_common_all.o [1]
+  .text              ro code  0x08000a10   0x1c  usart_common_f124.o [1]
+  .text              ro code  0x08000a2c   0xf4  flash.o [1]
+  .text              ro code  0x08000b20   0x16  rcc_common_all.o [1]
+  .text              ro code  0x08000b36    0x2  vector_table_M.o [4]
+  .text              ro code  0x08000b38   0x6c  gpio.o [1]
+  .text              ro code  0x08000ba4   0x24  gpio_common_all.o [1]
+  .text              ro code  0x08000bc8  0x230  rcc.o [1]
+  .text              ro code  0x08000df8   0x40  zero_init3.o [4]
+  .text              ro code  0x08000e38   0x2c  copy_init3.o [4]
+  .text              ro code  0x08000e64   0x28  data_init.o [4]
+  .iar.init_table    const    0x08000e8c   0x24  - Linker created -
+  Initializer bytes  const    0x08000eb0   0x1c  <for P2-1>
+  .text              ro code  0x08000ecc   0x1a  cmain.o [4]
+  .text              ro code  0x08000ee6    0x4  low_level_init.o [3]
+  .text              ro code  0x08000eea    0x4  exit.o [3]
+  .text              ro code  0x08000ef0    0xa  cexit.o [4]
+  .text              ro code  0x08000efc   0x14  exit.o [5]
+  .text              ro code  0x08000f10    0xc  cstartup_M.o [4]
+  .text              ro code  0x08000f1c    0x4  vector.o [1]
+  .rodata            const    0x08000f20    0x0  zero_init3.o [4]
+  .rodata            const    0x08000f20    0x0  copy_init3.o [4]
+                            - 0x08000f20  0xd90
+
+"P2", part 1 of 3:                         0x1c
+  P2-1                        0x20000000   0x1c  <Init block>
+    .data            inited   0x20000000   0x10  main.o [1]
+    .data            inited   0x20000010    0xc  rcc.o [1]
+                            - 0x2000001c   0x1c
+
+"P2", part 2 of 3:                        0x400
+  CSTACK                      0x20000020  0x400  <Block>
+    CSTACK           uninit   0x20000020  0x400  <Block tail>
+                            - 0x20000420  0x400
+
+"P2", part 3 of 3:                        0x51c
+  .bss               zero     0x20000420  0x500  bl.o [1]
+  .bss               zero     0x20000920   0x18  bl.o [1]
+  .bss               zero     0x20000938    0x4  usr_usart.o [1]
+                            - 0x2000093c  0x51c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x51c:
+          0x20000420  0x51c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1c:
+          0x08000eb0   0x1c
+    1 destination range, total size 0x1c:
+          0x20000000   0x1c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+C:\IAR_opencm3\Debug\Obj: [1]
+    bl.o                   1 204             1 304
+    flash.o                  244
+    flash_common_f01.o       104
+    gpio.o                   108
+    gpio_common_all.o         36
+    main.o                   496       16       16
+    rcc.o                    560       12       12
+    rcc_common_all.o          22
+    systick.o                 88
+    usart_common_all.o       156
+    usart_common_f124.o       28
+    usr_usart.o              128                 4
+    vector.o                   4      336
+    ----------------------------------------------
+    Total:                 3 178      364    1 336
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
+
+rt7M_tl.a: [4]
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              44
+    cstartup_M.o              12
+    data_init.o               40
+    vector_table_M.o          66
+    zero_init3.o              64
+    ----------------------------------------------
+    Total:                   262
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                       4
+    Linker created                     36    1 024
+--------------------------------------------------
+    Grand Total:           3 472      400    2 360
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08000e8c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08000eb0          --   Gb  - Linker created -
+?main                   0x08000ecd         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20000020          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000420          --   Gb  - Linker created -
+Region$$Table$$Base     0x08000e8c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08000eb0          --   Gb  - Linker created -
+__cmain                 0x08000ecd         Code  Gb  cmain.o [4]
+__exit                  0x08000efd   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x08000e39   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08000e65   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x08000f11         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x08000df9   0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x08000ee7    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000150         Data  Gb  vector_table_M.o [4]
+_call_main              0x08000ed9         Code  Gb  cmain.o [4]
+_exit                   0x08000ef1         Code  Gb  cexit.o [4]
+_led_state              0x20000922    0x1  Data  Lc  bl.o [1]
+_main                   0x08000ee3         Code  Gb  cmain.o [4]
+adc1_2_isr              0x08000f1d    0x2  Code  Wk  vector.o [1]
+adc3_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+bl_proto_rev            0x08000640    0x4  Data  Lc  bl.o [1]
+bl_type                 0x20000920    0x1  Data  Lc  bl.o [1]
+blocking_handler        0x08000f1d    0x2  Code  Gb  vector.o [1]
+board_deinit            0x08000785   0x40  Code  Gb  main.o [1]
+board_info              0x20000000   0x10  Data  Gb  main.o [1]
+bootloader              0x080002ed  0x31c  Code  Gb  bl.o [1]
+bootloader{2}{3}::flash_buffer
+                        0x20000420  0x100  Data  Lc  bl.o [1]
+can2_rx0_isr            0x08000f1d    0x2  Code  Wk  vector.o [1]
+can2_rx1_isr            0x08000f1d    0x2  Code  Wk  vector.o [1]
+can2_sce_isr            0x08000f1d    0x2  Code  Wk  vector.o [1]
+can2_tx_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+can_rx1_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+can_sce_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+cin                     0x0800019b   0x24  Code  Gb  bl.o [1]
+cin_count               0x20000934    0x4  Data  Lc  bl.o [1]
+cin_wait                0x08000295   0x20  Code  Lc  bl.o [1]
+cin_word                0x080002c5   0x26  Code  Lc  bl.o [1]
+cinit                   0x08000191    0xa  Code  Gb  bl.o [1]
+clock_deinit            0x080007d7   0x30  Code  Gb  main.o [1]
+cout                    0x080001bf   0x12  Code  Gb  bl.o [1]
+crc32::crctab           0x20000520  0x400  Data  Lc  bl.o [1]
+delay                   0x08000253    0xe  Code  Gb  bl.o [1]
+dma1_channel1_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma1_channel2_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma1_channel3_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma1_channel4_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma1_channel5_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma1_channel6_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma1_channel7_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma2_channel1_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma2_channel2_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma2_channel3_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma2_channel4_5_isr     0x08000f1d    0x2  Code  Wk  vector.o [1]
+dma2_channel5_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+eth_isr                 0x08000f1d    0x2  Code  Wk  vector.o [1]
+eth_wkup_isr            0x08000f1d    0x2  Code  Wk  vector.o [1]
+exit                    0x08000eeb    0x4  Code  Gb  exit.o [3]
+exti0_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+exti15_10_isr           0x08000f1d    0x2  Code  Wk  vector.o [1]
+exti1_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+exti2_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+exti3_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+exti4_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+exti9_5_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+flash_erase_page        0x08000aa3   0x6c  Code  Gb  flash.o [1]
+flash_func_erase_sector
+                        0x08000813   0x14  Code  Gb  main.o [1]
+flash_func_read_otp     0x0800083f    0x4  Code  Gb  main.o [1]
+flash_func_read_sn      0x08000843    0x8  Code  Gb  main.o [1]
+flash_func_read_word    0x08000833    0xc  Code  Gb  main.o [1]
+flash_func_sector_size  0x08000807    0xc  Code  Gb  main.o [1]
+flash_func_write_word   0x08000827    0xc  Code  Gb  main.o [1]
+flash_get_status_flags  0x08000a2d   0x1c  Code  Gb  flash.o [1]
+flash_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+flash_lock              0x080006df    0xc  Code  Gb  flash_common_f01.o [1]
+flash_program_half_word
+                        0x08000a49   0x5a  Code  Gb  flash.o [1]
+flash_program_word      0x080006f7   0x18  Code  Gb  flash_common_f01.o [1]
+flash_set_ws            0x080006c5    0xe  Code  Gb  flash_common_f01.o [1]
+flash_unlock            0x080006d3    0xc  Code  Gb  flash_common_f01.o [1]
+flash_wait_for_last_operation
+                        0x080006eb    0xc  Code  Gb  flash_common_f01.o [1]
+fsmc_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+gpio_clear              0x08000ba7    0x2  Code  Gb  gpio_common_all.o [1]
+gpio_get                0x08000baf    0x8  Code  Gb  gpio_common_all.o [1]
+gpio_set                0x08000ba5    0x2  Code  Gb  gpio_common_all.o [1]
+gpio_set_mode           0x08000b39   0x6c  Code  Gb  gpio.o [1]
+gpio_toggle             0x08000bb7   0x12  Code  Gb  gpio_common_all.o [1]
+hard_fault_handler      0x08000f1d    0x2  Code  Wk  vector.o [1]
+i2c1_er_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+i2c1_ev_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+i2c2_er_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+i2c2_ev_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+jump_to_app             0x080001d1   0x4c  Code  Gb  bl.o [1]
+last_input              0x20000921    0x1  Data  Lc  bl.o [1]
+led_off                 0x08000867   0x1c  Code  Gb  main.o [1]
+led_on                  0x0800084b   0x1c  Code  Gb  main.o [1]
+led_set                 0x08000261   0x1e  Code  Lc  bl.o [1]
+led_toggle              0x08000883   0x1c  Code  Gb  main.o [1]
+main                    0x0800089f   0xa4  Code  Gb  main.o [1]
+nmi_handler             0x08000f1f    0x2  Code  Wk  vector.o [1]
+null_handler            0x08000f1f    0x2  Code  Gb  vector.o [1]
+otg_fs_isr              0x08000f1d    0x2  Code  Wk  vector.o [1]
+pend_sv_handler         0x08000f1f    0x2  Code  Wk  vector.o [1]
+pvd_isr                 0x08000f1d    0x2  Code  Wk  vector.o [1]
+rcc_ahb_frequency       0x20000018    0x4  Data  Gb  rcc.o [1]
+rcc_apb1_frequency      0x20000010    0x4  Data  Gb  rcc.o [1]
+rcc_apb2_frequency      0x20000014    0x4  Data  Gb  rcc.o [1]
+rcc_clock_setup_in_hsi_out_48mhz
+                        0x08000d77   0x56  Code  Gb  rcc.o [1]
+rcc_css_disable         0x08000cbb    0xe  Code  Gb  rcc.o [1]
+rcc_isr                 0x08000f1d    0x2  Code  Wk  vector.o [1]
+rcc_osc_bypass_disable  0x08000cc9   0x24  Code  Gb  rcc.o [1]
+rcc_osc_off             0x08000c69   0x52  Code  Gb  rcc.o [1]
+rcc_osc_on              0x08000c15   0x52  Code  Gb  rcc.o [1]
+rcc_peripheral_disable_clock
+                        0x08000b23    0x2  Code  Gb  rcc_common_all.o [1]
+rcc_peripheral_enable_clock
+                        0x08000b21    0x2  Code  Gb  rcc_common_all.o [1]
+rcc_set_adcpre          0x08000d1f   0x10  Code  Gb  rcc.o [1]
+rcc_set_hpre            0x08000d4f    0x4  Code  Gb  rcc.o [1]
+rcc_set_pll_multiplication_factor
+                        0x08000cfd   0x12  Code  Gb  rcc.o [1]
+rcc_set_pll_source      0x08000d0f   0x10  Code  Gb  rcc.o [1]
+rcc_set_ppre1           0x08000d3f    0x8  Code  Gb  rcc.o [1]
+rcc_set_ppre2           0x08000d2f   0x10  Code  Gb  rcc.o [1]
+rcc_set_sysclk_source   0x08000ced   0x10  Code  Gb  rcc.o [1]
+rcc_set_usbpre          0x08000d53   0x14  Code  Gb  rcc.o [1]
+rcc_wait_for_osc_ready  0x08000bc9   0x4c  Code  Gb  rcc.o [1]
+rtc_alarm_isr           0x08000f1d    0x2  Code  Wk  vector.o [1]
+rtc_isr                 0x08000f1d    0x2  Code  Wk  vector.o [1]
+sdio_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+spi1_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+spi2_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+spi3_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+sv_call_handler         0x08000f1f    0x2  Code  Wk  vector.o [1]
+sync_response           0x0800027f   0x16  Code  Lc  bl.o [1]
+sys_tick_handler        0x0800021d   0x36  Code  Gb  bl.o [1]
+systick_counter_disable
+                        0x08000771    0xc  Code  Gb  systick.o [1]
+systick_counter_enable  0x08000765    0xc  Code  Gb  systick.o [1]
+systick_interrupt_disable
+                        0x08000757    0xe  Code  Gb  systick.o [1]
+systick_interrupt_enable
+                        0x0800074b    0xc  Code  Gb  systick.o [1]
+systick_set_clocksource
+                        0x08000737   0x14  Code  Gb  systick.o [1]
+systick_set_reload      0x0800072d    0xa  Code  Gb  systick.o [1]
+tamper_isr              0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim1_brk_isr            0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim1_cc_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim1_trg_com_isr        0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim1_up_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim2_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim3_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim4_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim5_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim6_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim7_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim8_brk_isr            0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim8_cc_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim8_trg_com_isr        0x08000f1d    0x2  Code  Wk  vector.o [1]
+tim8_up_isr             0x08000f1d    0x2  Code  Wk  vector.o [1]
+timer                   0x20000924   0x10  Data  Gb  bl.o [1]
+uart4_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+uart5_isr               0x08000f1d    0x2  Code  Wk  vector.o [1]
+uart_cfini              0x08000685    0x8  Code  Gb  usr_usart.o [1]
+uart_cin                0x0800068d   0x16  Code  Gb  usr_usart.o [1]
+uart_cinit              0x08000645   0x40  Code  Gb  usr_usart.o [1]
+uart_cout               0x080006a3   0x1e  Code  Gb  usr_usart.o [1]
+usart                   0x20000938    0x4  Data  Gb  usr_usart.o [1]
+usart1_isr              0x08000f1d    0x2  Code  Wk  vector.o [1]
+usart2_isr              0x08000f1d    0x2  Code  Wk  vector.o [1]
+usart3_isr              0x08000f1d    0x2  Code  Wk  vector.o [1]
+usart_disable           0x080009ef    0xc  Code  Gb  usart_common_all.o [1]
+usart_enable            0x080009e3    0xc  Code  Gb  usart_common_all.o [1]
+usart_recv              0x08000a1b    0xa  Code  Gb  usart_common_f124.o [1]
+usart_send              0x08000a11    0xa  Code  Gb  usart_common_f124.o [1]
+usart_send_blocking     0x080009fb   0x16  Code  Gb  usart_common_all.o [1]
+usart_set_baudrate      0x08000975   0x1e  Code  Gb  usart_common_all.o [1]
+usart_set_databits      0x080009a1   0x14  Code  Gb  usart_common_all.o [1]
+usart_set_flow_control  0x080009d9    0xa  Code  Gb  usart_common_all.o [1]
+usart_set_mode          0x080009cd    0xc  Code  Gb  usart_common_all.o [1]
+usart_set_parity        0x080009bf    0x8  Code  Gb  usart_common_all.o [1]
+usart_set_stopbits      0x080009b5    0xa  Code  Gb  usart_common_all.o [1]
+usart_wait_send_ready   0x08000a25    0x8  Code  Gb  usart_common_f124.o [1]
+usb_hp_can_tx_isr       0x08000f1d    0x2  Code  Wk  vector.o [1]
+usb_lp_can_rx0_isr      0x08000f1d    0x2  Code  Wk  vector.o [1]
+usb_wakeup_isr          0x08000f1d    0x2  Code  Wk  vector.o [1]
+vector_table            0x08000000  0x150  Data  Gb  vector.o [1]
+wait_for_eoc            0x080002b5   0x10  Code  Lc  bl.o [1]
+wwdg_isr                0x08000f1d    0x2  Code  Wk  vector.o [1]
+
+
+[1] = C:\IAR_opencm3\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  3 472 bytes of readonly  code memory
+    400 bytes of readonly  data memory
+  2 360 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

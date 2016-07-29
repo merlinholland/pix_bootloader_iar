@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2755068964</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_common_all.o</file>
+      <file>$PROJ_DIR$\libopencm3\lib\dispatch\vector_nvic.c</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\scs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vector.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\opencm3.bin</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\common\pwr_common_all.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\common\usart_common_all.h</file>
+      <file>$PROJ_DIR$\inc\usr_usart.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\vector.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\scb.o</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\memorymap.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\common\rcc_common_all.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\opencm3.out</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\common.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\memorymap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\scb.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\pwr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bl.pbi</file>
+      <file>$PROJ_DIR$\inc\hw_config.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\libopencm3\lib\dispatch\vector_chipset.c</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\nvic.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\scb.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\opencm3.icf</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\rcc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\bkp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc_common_all.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vector_nvic.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\scb.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\dwt.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\common\gpio_common_all.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\memorymap.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nvic.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\bl.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\nvic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dwt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vector.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dwt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.o</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\nvic.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart_common_f124.o</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\nvic.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vector.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_common_f01.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nvic.__cstat.et</file>
+      <file>$PROJ_DIR$\inc\bl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vector_nvic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart_common_f124.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart_common_all.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vector_nvic.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_common_all.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\assert.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usr_usart.pbi</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\systick.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_common_f01.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart_common_all.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usr_usart.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\opencm3.pbd</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\vector.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\flash_common_f01.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\rcc_common_all.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\gpio_common_all.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_all.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\systick.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\dwt.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\scb.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc_common_all.o</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\rcc.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\common\flash_common_f01.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\pwr.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\usart.h</file>
+      <file>$PROJ_DIR$\Debug\List\opencm3.log</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart_common_all.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\cm3\assert.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\usart.h</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\f1\gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc_common_all.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dwt.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\List\opencm3.map</file>
+      <file>$PROJ_DIR$\src\bl.c</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\usr_usart.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_common_all.pbi</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencmsis\core_cm3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart_common_f124.pbi</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\dispatch\nvic.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usr_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_common_f01.__cstat.et</file>
+      <file>$PROJ_DIR$\libopencm3\include\libopencm3\stm32\common\usart_common_f124.h</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\gpio.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_f124.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\flash.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\rcc.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\usart.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\vector_nvic.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\opencm3.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 116 104</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 33 38 65 58 71 70 80 0 96 57 112 98 16 6 62 84 67 125 60 46 86 34 55 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 116 104 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\nvic.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 21 37 35 19 32 28 11 53 124 10 22 123 30 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 21 10 35 30 2 22 123 37 32 53 124 68 28 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\assert.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 21 37 35 19 32 28 11 53 124 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 37 21 35 11 19 32 53 124 107 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\vector.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 21 37 35 19 32 28 11 53 124 10 68 22 123 30 29 1 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 35 53 28 1 21 32 11 22 123 29 68 10 19 124 30 14 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\flash_common_f01.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 21 37 35 19 32 28 11 53 124 10 52 17 22 9 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 11 17 52 37 35 21 10 19 28 22 27 32 53 124 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\rcc_common_all.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 21 37 35 19 32 28 11 53 124 10 52 17 22 99 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 52 53 28 37 99 32 11 22 21 10 19 124 17 36 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\gpio_common_all.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 21 37 35 19 32 28 11 53 124 10 52 17 22 109 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 10 19 28 21 35 11 17 114 52 109 37 32 53 124 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_all.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 21 37 35 19 32 28 11 53 124 10 52 17 22 103 127 12 36 99 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 10 19 35 28 36 52 103 37 32 53 11 127 108 124 17 22 12 99 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\systick.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82 22 21 37 35 19 32 28 11 53 124 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 124 22 19 32 21 37 35 28 11 82 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\dwt.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2 49 21 37 35 19 32 28 11 53 124 10 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 28 35 11 49 21 37 32 53 124 2 22 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\scb.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 35 19 32 28 11 53 124 15 48 22 21 37 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 19 35 53 10 48 15 11 22 43 32 124 21 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bl.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 47 35 37 19 32 28 11 53 124 43 15 36 21 10 52 17 22 99 18 114 109 51 27 9 100 48 82 73 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 18 73 22 114 10 43 48 124 19 35 109 100 47 36 27 82 13 37 15 21 51 9 26 32 53 28 11 99 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 43 35 19 32 28 11 53 124 15 36 21 37 10 52 17 22 99 18 40 114 109 51 27 9 100 108 103 127 12 24 102 5 82 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 82 11 35 114 32 22 52 9 103 36 108 53 28 21 51 43 40 27 24 73 15 124 10 17 109 100 127 26 99 37 18 12 102 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usr_usart.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 36 21 37 35 19 32 28 11 53 124 10 52 17 22 99 18 114 109 51 108 103 127 12 73 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 35 73 10 17 21 114 124 22 36 108 13 52 99 37 32 53 28 11 18 109 51 12 26 103 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 21 37 35 19 32 28 11 53 124 10 52 17 22 109 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 53 124 52 37 35 32 19 51 21 10 28 11 17 22 114</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_f124.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 21 37 35 19 32 28 11 53 124 10 52 17 22 103 127 12 36 99 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 32 52 37 35 53 28 36 21 10 19 11 127 108 124 17 22 12 99 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\flash.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 21 37 35 19 32 28 11 53 124 10 52 17 22 9 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 11 17 52 37 35 21 10 19 28 22 27 32 53 124 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\rcc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 21 37 35 19 32 28 11 53 124 10 36 52 17 22 99 18 27 9 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 21 27 124 19 36 10 35 17 107 37 32 53 28 11 52 99 18 9 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\usart.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 21 37 35 19 32 28 11 53 124 10 52 17 22 103 127 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 17 52 37 19 35 12 21 10 124 22 108 32 53 28 11 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\vector_nvic.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\libopencm3\lib\dispatch\vector_nvic.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Release\Obj\scb.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\nvic.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\dwt.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\libopencm3\lib\dispatch\vector_chipset.c</file>
+      <file>$PROJ_DIR$\Release\Obj\bl.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\systick.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\gpio_common_all.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\rcc_common_all.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\vector_nvic.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usr_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usart_common_f124.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Release\Obj\dwt.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Exe\opencm3.out</file>
+      <file>$PROJ_DIR$\Release\Obj\rcc_common_all.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usart_common_all.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usart_common_f124.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\rcc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\vector_nvic.pbi</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\nvic.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\assert.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\vector.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\flash_common_f01.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\rcc_common_all.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\gpio_common_all.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_all.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\systick.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\dwt.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\cm3\scb.c</file>
+      <file>$PROJ_DIR$\Release\Obj\bl.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usr_usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\vector.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\flash_common_f01.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\scb.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usart_common_all.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\flash.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\vector.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\flash_common_f01.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\gpio_common_all.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\nvic.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\assert.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\vector_nvic.o</file>
+      <file>$PROJ_DIR$\src\bl.c</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\usr_usart.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\gpio.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_f124.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\flash.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\rcc.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\usart.c</file>
+      <file>$PROJ_DIR$\libopencm3\lib\stm32\f1\vector_nvic.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\nvic.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\assert.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\vector.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\flash_common_f01.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\rcc_common_all.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\gpio_common_all.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_all.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\systick.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\dwt.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\cm3\scb.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22 20 3 19 8 1 24 65 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 2 3 20 24 65 8 1 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bl.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 22 21 2 23 65 3 19 24 8 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 20 1 24 8 22 2 19 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usr_usart.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\common\usart_common_f124.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\flash.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\rcc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\usart.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libopencm3\lib\stm32\f1\vector_nvic.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

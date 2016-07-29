@@ -1,0 +1,11 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin\armsim2.dll" 
+
+"C:\IAR_opencm3\libopencm3\include\libopencmsis\core_cm3.h" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin\armbat.dll" 
+
+
+
+
